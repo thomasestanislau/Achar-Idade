@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>identificar idade</title>
+</head>
+<body>
+    <header>
+        <h1>Identificar idade</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>
+                Digite o ano de nascimento:
+                <input type="number" id="anoUser" min="0" class="entrada">
+                Sexo:
+                <input type="radio" id="male" name="radsex" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" id="female" name="radsex">
+                <label for="fem">Feminino</label>
+                <br>
+                <input type="button" id="button" name="botao" value="Verificar" class="botao" onclick="verificar()">
+            </p>
+        </div>
+
+        <div id="resposta">
+            Preencha os campos para verificar sua idade 
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;Thomás B Estanislau</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
